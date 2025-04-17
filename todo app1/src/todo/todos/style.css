@@ -1,0 +1,17 @@
+.todo-list {
+    margin-top: 20px;
+}
+.todo-list div[data-completed-todo="true"] {
+    background-color: rgb(215, 239, 250);
+    color: rgb(234, 0, 255);
+    border: 5px double skyblue ;
+    margin: 2px;
+    padding: 5px;
+}
+.todo-list div[data-completed-todo="false"] {
+    background-color: rgb(250, 215, 215);
+    color: rgb(255, 145, 0);
+    border: 2px double red ;
+    margin: 2px;
+    padding: 5px;
+}
